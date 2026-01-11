@@ -6,7 +6,7 @@ from perplexity import Perplexity
 
 load_dotenv()
 
-bot = telebot.TeleBot(os.environ.get('BOT_TOKEN'))
+bot = telebot.TeleBot(os.environ.get('BOT_TOKENn'))
 client = Perplexity(api_key=os.environ.get('AI_TOKEN'))
 
 user_models = {}
